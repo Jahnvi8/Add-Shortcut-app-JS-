@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    /* background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876); */
+    background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.heading {
+    font-family: 'Explora', cursive;
+    color: aliceblue;
+    letter-spacing: 4px;
+    word-spacing: 15px;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 5px;
+    margin-left: 8%;
+    text-align: center;
+    background: #cc6cb7;
+    background: -webkit-linear-gradient(to right, #6b94c7, #d8ce9f, #ce73ba);
+    background: linear-gradient(to right, #6090cc, #DBD4B4, #ca75b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.add-shortcut-button {
+    margin: 5% 0 0 45%;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 26%;
+    margin-left: 45%;
+}
+
+#bookmarksResults {
+    /* background-color: #cc6cb7; */
+    width: 40%;
+    padding: 5px;
+    margin: 3% 0 2% 30%;
+    /* height: 100%; */
+}
+
+
+/* .well {
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+
+.well h4 {
+    color: #90b1dd;
+}
+
+.well .btn-primary {
+    float: right;
+    margin: 2px;
+}
+
+.well .btn-danger {
+    float: right;
+    margin: 2px;
+}
+
+.well hr {
+    z-index: 100;
+    color: #dce2e9;
+}
